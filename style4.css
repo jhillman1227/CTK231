@@ -1,0 +1,153 @@
+/* ===== Basic page setup ===== */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+  background-image: url("Fugees-pic.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* ===== Header ===== */
+#site-header {
+  background-color: #ce1126; /* ISU red */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heavy black border, yellow gap between border and image */
+#site-header img {
+  max-width: 120px;
+  margin-top: 10px;
+  border: 8px solid #000000;
+  background-color: #ffd400;
+  padding: 6px;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 {
+  background-color: transparent;
+  margin: 0;
+}
+
+h2 {
+  background-color: #f5e6e6;
+  padding: 6px 10px;
+}
+
+h3 {
+  background-color: #eeeeee;
+  padding: 4px 8px;
+}
+
+/* ===== Navigation ===== */
+.site-nav {
+  background-color: #222222;
+}
+
+.site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.site-nav li {
+  margin: 0;
+}
+
+.site-nav a {
+  display: block;
+  padding: 12px 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  background-color: #444444;
+}
+
+/* ===== Main content area ===== */
+main {
+  padding: 20px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(253, 250, 245, 0.94);
+}
+
+/* ===== Links (per assignment requirements) ===== */
+a:link {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+  background-color: #333333;
+}
+
+a:visited {
+  color: green;
+}
+
+/* ===== Text alignment utility classes ===== */
+.center-text {
+  text-align: center;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+/* ===== Div and span examples ===== */
+.info-box {
+  border: 2px solid #ce1126;
+  background-color: #fff8f8;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.highlight {
+  background-color: yellow;
+  color: #222222;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.course-number {
+  color: #ffffff;
+  background-color: #ce1126;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.course-group {
+  margin-bottom: 30px;
+}
+
+/* ===== Body content images (heavy black border, yellow gap) ===== */
+main img {
+  border: 8px solid #000000;
+  background-color: #ffd400;
+  padding: 6px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+}
