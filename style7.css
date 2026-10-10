@@ -1,0 +1,201 @@
+/* ===== Page setup ===== */
+body {
+  margin: 0;
+  padding: 16px 0;
+  background-color: #999999;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Centered page container */
+#wrapper {
+  width: 1210px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 5px solid #0b45b0;
+  background-color: #ffffff;
+}
+
+/* ===== Header (gradient) ===== */
+#site-header {
+  height: 100px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  background-color: #0674d0;
+  background-image: linear-gradient(to bottom, #0a8cee 0%, #0560b8 100%);
+}
+
+#site-header h1 {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#site-header h1 a {
+  color: #5ccbff;
+  text-decoration: none;
+}
+
+#site-header h1 a:hover {
+  color: #ffffff;
+}
+
+/* ===== Navigation (gradient, equal-width boxes) ===== */
+#site-nav {
+  background-color: #0674d0;
+  background-image: linear-gradient(to bottom, #0a8cee 0%, #0560b8 100%);
+  border-top: 2px solid #0a4aa8;
+  border-bottom: 3px solid #0b45b0;
+}
+
+#site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#site-nav li {
+  width: 25%;
+  box-sizing: border-box;
+  border-right: 3px solid #0a4aa8;
+}
+
+#site-nav a {
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #5ccbff;
+  text-decoration: none;
+}
+
+#site-nav a:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #3fb0ff 0%, #1a86e0 100%);
+}
+
+/* The page you're currently on */
+#site-nav a.current {
+  color: #ffffff;
+}
+
+/* ===== Content layouts ===== */
+#content {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Two-column pages */
+.main-col {
+  box-sizing: border-box;
+  flex: 0 0 66.6667%;
+  padding: 17px 17px 9px 17px;
+  background-color: #ffffff;
+}
+
+.side-col {
+  box-sizing: border-box;
+  flex: 0 0 33.3333%;
+  padding: 17px;
+  background-color: #add8e6;
+}
+
+/* Gallery page: three equal columns */
+.gallery {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  gap: 17px;
+  padding: 17px 17px 25px 17px;
+}
+
+.gallery-item {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ===== Headings ===== */
+#content h2 {
+  margin: 0 0 22px 0;
+  padding-bottom: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #0a2fa0;
+  border-bottom: 2px solid #0b45b0;
+}
+
+/* ===== Text ===== */
+#content p {
+  margin: 0 0 16px 0;
+  line-height: 18px;
+}
+
+/* Sidebar paragraphs: bold and justified */
+.side-col p {
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* Content links: bold red, no underline; color changes on hover */
+#content p a {
+  font-weight: bold;
+  color: #cc0000;
+  text-decoration: none;
+}
+
+#content p a:hover {
+  color: #ff6a00;
+  text-decoration: underline;
+}
+
+/* ===== Images ===== */
+.photo {
+  display: block;
+  box-sizing: border-box;
+  border: 3px solid #0b45b0;
+}
+
+.photo-right {
+  float: right;
+  margin: 0 0 12px 20px;
+}
+
+.photo-left {
+  float: left;
+  margin: 0 20px 12px 0;
+}
+
+.portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+/* ===== Footer ===== */
+#site-footer {
+  padding: 10px 12px;
+  background-color: #d11d00;
+  border-top: 3px solid #0b45b0;
+}
+
+#site-footer a {
+  display: inline-block;
+}
+
+#site-footer img {
+  display: block;
+  border: 0;
+}
